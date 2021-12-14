@@ -16,7 +16,7 @@ def load_data():
 	data["Year"] = data["Year"].astype("int")
 	data.set_index("Rank")
 	temp = data["Year"]
-	temp = temp[temp <= 2016]
+	temp = temp[temp <= 2020]
 	return data , temp
 
 # Here data is grouped by the Year attribute.
