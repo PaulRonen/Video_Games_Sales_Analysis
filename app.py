@@ -4,10 +4,6 @@ import plotly.express as px
 import streamlit as st
 
 ########################################################################################
-
-
-
-
 # This function loads the data and does some very basic data cleaning.
 @st.cache(persist = True)
 def load_data():
@@ -18,6 +14,9 @@ def load_data():
 	temp = data["Year"]
 	temp = temp[temp <= 2020]
 	return data , temp
+
+
+
 
 # Here data is grouped by the Year attribute.
 @st.cache(persist = True , allow_output_mutation=True)
@@ -33,8 +32,7 @@ def dark_theme():
 	st.markdown("<style>h4{color : white;}</style>" , unsafe_allow_html = True)
 	st.markdown("<style>h5{color : white;}</style>" , unsafe_allow_html = True)
 	st.markdown("<style>h6{color : white;}</style>" , unsafe_allow_html = True)
-	with open("bgcolor.css") as f:
-		st.markdown(f"<style>{f.read()}</style>" , unsafe_allow_html = True)
+	
 
 #function calling
 
@@ -124,7 +122,7 @@ st.markdown("---")
 
 st.subheader("Highest Grossing Publisher/Genre/Game in a Particular Year : ")
 
-user_input_year = st.text_input("Enter a year between 1970 and 2016" , 2000)
+user_input_year = st.text_input("Enter a year between 1970 and 2016" ,2000)
 user_input_field = st.selectbox("Choose an Option" , ["Publisher" , "Genre" , "Name"])
 try:
 	x1 = np.int32(user_input_year)
