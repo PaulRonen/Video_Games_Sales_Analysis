@@ -26,12 +26,12 @@ def groupingdata(data):
 	return x
 
 def dark_theme():
-	st.markdown("<style>h1{color : white;}</style>" , unsafe_allow_html = True)
-	st.markdown("<style>h2{color : white;}</style>" , unsafe_allow_html = True)
-	st.markdown("<style>h3{color : white;}</style>" , unsafe_allow_html = True)
-	st.markdown("<style>h4{color : white;}</style>" , unsafe_allow_html = True)
-	st.markdown("<style>h5{color : white;}</style>" , unsafe_allow_html = True)
-	st.markdown("<style>h6{color : white;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h1{color : black;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h2{color : black;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h3{color : black;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h4{color : black;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h5{color : black;}</style>" , unsafe_allow_html = True)
+	st.markdown("<style>h6{color : black;}</style>" , unsafe_allow_html = True)
 	
 
 #function calling
