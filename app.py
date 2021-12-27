@@ -83,8 +83,8 @@ if check == "Europe":
 if check == "Japan":
 
 	st.subheader("Highest Grossing Games in Japan.")
-	other_sales = data[["Name","Year","JP_Sales "]].sort_values(by = "JP_Sales ",ascending = False).head(10)
-	st.write(px.bar(other_sales, x = "Name" , y = "JP_Sales " , hover_data = ["Name" , "JP_Sales "] , color = "JP_Sales "))
+	other_sales = data[["Name","Year","JP_Sales"]].sort_values(by = "JP_Sales",ascending = False).head(10)
+	st.write(px.bar(other_sales, x = "Name" , y = "JP_Sales" , hover_data = ["Name" , "JP_Sales"] , color = "JP_Sales"))
 
 
 elif check == "Rest of the World": 
