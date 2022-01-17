@@ -3,4 +3,4 @@ numpy
 Seabborn
 matplotlib
 streamlit
-plotly-express
+plotly.express
