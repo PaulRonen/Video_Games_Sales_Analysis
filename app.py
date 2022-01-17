@@ -144,3 +144,14 @@ except ValueError:
 
 
 st.markdown("---")
+
+###################################################################################################
+#Concl
+st.title(" Conclusion ")
+st.subheader("From the analysis, following conclusions can be drawn:")
+st.markdown("1-Around the period 1982 - 2015, people were most interested in Shooter genre and least in Adventure genre.")
+st.markdown("2-Publisher That Launched Higest Games is Electronics Games.")
+st.markdown("3-During this period, Nintendo made the most sales and Square Enix made the least sales.")
+st.markdown("4-Most games were sold in the year 2006 and least in 2000.")
+st.markdown("")
+st.markdown("---")
