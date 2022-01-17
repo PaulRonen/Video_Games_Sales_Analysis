@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
-import plotly.express as px
 import streamlit as st
+import plotly.express as px
 
 ########################################################################################
 # This function loads the data and does some very basic data cleaning.
